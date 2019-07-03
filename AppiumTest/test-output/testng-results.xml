@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42917" started-at="2019-03-12T16:36:52Z" finished-at="2019-03-12T16:37:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42917" started-at="2019-03-12T16:36:52Z" finished-at="2019-03-12T16:37:35Z">
+      <class name="androidNativeApps.BrowsersStackParallel">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:androidNativeApps.BrowsersStackParallel@4cf777e8]" name="setUp" is-config="true" duration-ms="5" started-at="2019-03-12T22:06:52Z" finished-at="2019-03-12T22:06:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:androidNativeApps.BrowsersStackParallel@4cf777e8]" name="setUp" is-config="true" duration-ms="5" started-at="2019-03-12T22:06:52Z" finished-at="2019-03-12T22:06:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Testcase(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:androidNativeApps.BrowsersStackParallel@4cf777e8]" name="Testcase" duration-ms="36653" started-at="2019-03-12T22:06:52Z" data-provider="EnvironmentDetails" finished-at="2019-03-12T22:07:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung Galaxy Note 9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase -->
+        <test-method status="FAIL" signature="Testcase(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:androidNativeApps.BrowsersStackParallel@4cf777e8]" name="Testcase" duration-ms="42863" started-at="2019-03-12T22:06:52Z" data-provider="EnvironmentDetails" finished-at="2019-03-12T22:07:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhoneXR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'BANUSHALAP078', ip: '172.20.10.10', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'BANUSHALAP078', ip: '172.20.10.10', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:286)
+	at androidNativeApps.BrowsersStackParallel.Testcase(BrowsersStackParallel.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:androidNativeApps.BrowsersStackParallel@4cf777e8]" name="tearDown" is-config="true" duration-ms="1457" started-at="2019-03-12T22:07:29Z" finished-at="2019-03-12T22:07:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:androidNativeApps.BrowsersStackParallel@4cf777e8]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-03-12T22:07:35Z" finished-at="2019-03-12T22:07:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- androidNativeApps.BrowsersStackParallel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
